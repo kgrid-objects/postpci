@@ -1,4 +1,4 @@
-# postpci Knowledge Objects
+# Post PCI Knowledge Objects
 [![GitHub release](https://img.shields.io/github/release/kgrid-objects/postpci.svg)](https://github.com/kgrid-objects/postpci/releases/)
 
 
