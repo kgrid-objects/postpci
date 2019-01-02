@@ -1,0 +1,80 @@
+openapi: 3.0.0
+info:
+  version: 1.0.0
+  title: 'Ischemic Bleeding Risk post Percutaneous Coronary Intervention  Calculator'
+  description: 'This object is derived from the DAPT study that aimed to identify the risk of benefit vs. harm for patients that continue thienopyridine treatment beyond one year after percutaneous coronary intervention (PCI). '
+servers:
+  - url: '/67034/k47c7m/v0.0.3/'
+    description: Ischemic Bleeding Risk
+tags:
+  - name: KO Endpoints
+    description: Ischemic Bleeding Risk Endpoints
+paths:
+  /getIschemicRisk:
+    post:
+      tags:
+        - KO Endpoints
+      description: Ischemic Bleeding Risk
+      operationId: bleedingrisk
+      requestBody:
+        description: inputs
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/input'
+      responses:
+        '200':
+          description: response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/output'
+        default:
+          description: unexpected error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/error'
+components:
+  schemas:
+    input:
+      required:
+        - DAPT
+        - age
+        - periphDisease
+        - hypertension
+        - renal
+      properties:
+        DAPT:
+          type: integer
+          example: 1
+        age:
+          type: integer
+          example: 60
+        periphDisease:
+          type: integer
+          example: 0
+        hypertension:
+          type: integer
+          example: 1
+        renal:
+          type: integer
+          example: 0
+    output:
+      required:
+        - result
+      properties:
+        result:
+          type: string
+          example: '0.024'
+    error:
+      required:
+        - code
+        - message
+      properties:
+        code:
+          type: integer
+          format: int32
+        message:
+          type: string

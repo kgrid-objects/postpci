@@ -1,0 +1,5 @@
+endpoints:
+  /getIschemicRisk:
+    adapterType: JAVASCRIPT
+    artifact: getIschemicRisk.js
+    entry: getIschemicRisk

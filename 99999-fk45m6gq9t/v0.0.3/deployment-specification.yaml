@@ -1,0 +1,5 @@
+endpoints:
+  /getStentThrombosisRisk:
+    adapterType: JAVASCRIPT
+    artifact: getStentThrombosisRisk.js
+    entry: getStentThrombosisRisk

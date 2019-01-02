@@ -1,0 +1,14 @@
+{
+  "@id": "v0.0.3",
+  "@type": "koio:Implementation",
+  "identifier": "v0.0.3",
+  "title": "Stent Thrombosis Risk Calculator Implementation",
+  "description":"Identifies the risk of benefit vs. harm for patients that continue thienopyridine treatment beyond one year after percutaneous coronary intervention",
+  "keywords": "GUSTO, bleeding, PCI",
+  "hasServiceSpecification": "v0.0.3/service-specification.yaml",
+  "hasDeploymentSpecification": "v0.0.3/deployment-specification.yaml",
+  "hasPayload": "v0.0.3/getStentThrombosisRisk.js",
+  "@context": [
+    "http://kgrid.org/koio/contexts/implementation.jsonld"
+  ]
+}
