@@ -29,9 +29,9 @@
     }
   ],
   "devDependencies": {
-    "scripty": "1.7.2",
     "mocha": "5.2.0",
-    "vuepress": "^0.14.4"
+    "scripty": "1.7.2",
+    "vuepress": "^1.0.3"
   },
   "scripts": {
     "test": "echo \"No test specified\" ",
