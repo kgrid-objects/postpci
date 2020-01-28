@@ -1,33 +1,5 @@
 {
-  "template": "kotemplate",
   "project": "postpci",
-  "objects": [
-    {
-      "id": "67034-k47c7m",
-      "version": "v0.0.2"
-    },
-    {
-      "id": "99999-fk45m6gq9t",
-      "version": "v0.0.2"
-    }
-  ],
-  "kodependencies": [],
-  "runtimedependencies": [
-    {
-      "name": "Activator",
-      "version": "0.5.8",
-      "filename": "kgrid-activator-0.6.5.jar",
-      "download_url": "https://github.com/kgrid/kgrid-activator/releases/download/kgrid-activator-0.6.5/",
-      "target": ""
-    },
-    {
-      "name": "JavaScript",
-      "version": "0.0.1",
-      "filename": "javascript-adapter-0.0.1-SNAPSHOT.jar",
-      "download_url": "https://github.com/kgrid/ko-templates/releases/download/0.1/",
-      "target": "adapters/"
-    }
-  ],
   "devDependencies": {
     "mocha": "5.2.0",
     "scripty": "1.7.2",
@@ -35,8 +7,6 @@
   },
   "scripts": {
     "test": "echo \"No test specified\" ",
-    "prod": "scripty",
-    "dev": "scripty",
     "package": "scripty",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
