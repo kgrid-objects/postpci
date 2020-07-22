@@ -1,9 +1,9 @@
 {
   "project": "postpci",
   "devDependencies": {
-    "mocha": "5.2.0",
+    "mocha": "^8.0.1",
     "scripty": "1.7.2",
-    "vuepress": "^1.0.3"
+    "vuepress": "^1.5.2"
   },
   "scripts": {
     "test": "echo \"No test specified\" ",
