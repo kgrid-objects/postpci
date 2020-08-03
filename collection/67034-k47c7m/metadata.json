@@ -2,7 +2,7 @@
   "@id": "67034-k47c7m",
   "@type":"koio:KnowledgeObject",
   "identifier":"ark:/67034/k47c7m",
-  "version": "v0.0.4",
+  "version": "v0.1.0",
   "title": "Ischemic Bleeding Risk post Percutaneous Coronary Intervention Calculator",
   "contributors": "Kgrid Team",
   "description": "This object is derived from the DAPT study that aimed to identify the risk of benefit vs. harm for patients that continue thienopyridine treatment beyond one year after percutaneous coronary intervention (PCI). This object's input is a dictionary containing risk values for five different factors. It will then calculate the estimated risk of GUSTO moderate or severe bleeding in the 12 to 30 month period post PCI using the formula from the study",

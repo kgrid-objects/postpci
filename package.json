@@ -2,19 +2,12 @@
   "project": "postpci",
   "devDependencies": {
     "mocha": "^8.0.1",
-    "scripty": "1.7.2",
     "vuepress": "^1.5.2"
   },
   "scripts": {
     "test": "echo \"No test specified\" ",
-    "package": "scripty",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
-  },
-  "scripty": {
-    "path": "scripts",
-    "windowsPath": "scriptswin",
-    "silent": true
   },
   "engines": {
     "node": ">= 8.0.0",

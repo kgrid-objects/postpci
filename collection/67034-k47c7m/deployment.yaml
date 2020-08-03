@@ -1,5 +1,5 @@
 endpoints:
   /getIschemicRisk:
-    adapterType: JAVASCRIPT
+    adapter: JAVASCRIPT
     artifact: getIschemicRisk.js
-    entry: getIschemicRisk
+    function: getIschemicRisk

@@ -25,22 +25,6 @@ jobs:
         name: Install Dependencies
         command: npm install
 
-    # - save_cache:
-    #     paths:
-    #     - node_modules
-    #     key: v1-dependencies-{{ checksum "package.json" }}
-
-    # - run:
-    #     name: Unit Testing
-    #     command: npm test
-
-    # - run:
-    #     name: Intgration Testing
-    #     command: npm run ci
-    #
-    # - run:
-    #     name: Create CPIC Objects zip ready for deployment
-    #     command: npm run package
 
     - run:
         name: Deploy VuePress GitHub Pages
@@ -49,10 +33,6 @@ jobs:
 
     - store_artifacts:
         path: dist
-
-    # - store_test_results:
-    #     path: test-results
-
 
 workflows:
   version: 2
