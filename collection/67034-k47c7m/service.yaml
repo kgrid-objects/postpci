@@ -1,10 +1,10 @@
 openapi: 3.0.0
 info:
-  version: 1.0.0
+  version: '1.0'
   title: 'Ischemic Bleeding Risk post Percutaneous Coronary Intervention  Calculator'
   description: 'This object is derived from the DAPT study that aimed to identify the risk of benefit vs. harm for patients that continue thienopyridine treatment beyond one year after percutaneous coronary intervention (PCI). '
 servers:
-  - url: '/67034/k47c7m'
+  - url: '/67034/k47c7m/1.0'
     description: Ischemic Bleeding Risk
 tags:
   - name: KO Endpoints

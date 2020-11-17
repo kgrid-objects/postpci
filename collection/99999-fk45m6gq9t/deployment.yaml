@@ -1,5 +1,5 @@
-endpoints:
-  /getStentThrombosisRisk:
-    adapter: JAVASCRIPT
+/getStentThrombosisRisk:
+  post:
+    engine: javascript
     artifact: getStentThrombosisRisk.js
     function: getStentThrombosisRisk
